@@ -1,0 +1,112 @@
+.buttonclass{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+
+}
+.buttonborder{
+    border:4px red dashed
+}
+.transition{
+    background-color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+
+ 
+}
+.transition:hover{
+    background-color: green;
+}
+
+.transitiondiv{
+    width: 100px;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.transitiondiv:hover{
+    background-color: brown;
+    width: 200px;
+}
+
+.transitionp{
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.transitionp:hover{
+    font-size: 24px;
+}
+
+.transitionimage{
+    transition: all;
+    transition-duration: 0.8s;
+}
+
+.transitionimage:hover{
+    opacity: 0.5;
+}
+
+.scalediv{
+    background-color: blanchedalmond;
+    transition: all;
+
+}
+
+.scalediv:hover{
+    scale: 1.5;
+}
+
+.scaleimage{
+    transition: all;
+}
+
+.scaleimage:hover{
+    scale: 0.75;
+}
+
+.translate{
+    background-color: blueviolet;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.translate:hover{
+    background-color: aquamarine;
+    transform: translate(50px, 20px);
+  
+}
+
+.translatediv{
+    width: 100px;
+    background-color: bisque;
+    translate: 200px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.translatediv:hover{
+    transform: translate(-100px);
+}
+  
+.skew{
+    background-color: crimson;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.skew:hover{
+    transform: skewX(20deg);
+}
+
+.skew2{
+    background-color: cornflowerblue;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.skew2:hover{
+    transform: skewY(15deg);
+}
